@@ -1,8 +1,6 @@
-package example.client.widget.view;
+package example.client.widget.example;
 
 import com.google.gwt.user.client.ui.IsWidget;
-
-import example.client.widget.presenter.ExampleWidgetPresenter;
 
 /**
  * MVP view.

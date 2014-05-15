@@ -1,6 +1,5 @@
-package example.client.widget.presenter;
+package example.client.widget.example;
 
-import example.client.widget.view.ExampleWidgetView;
 
 /**
  * Implementation of {@link ExampleWidgetPresenter}.

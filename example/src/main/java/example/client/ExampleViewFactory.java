@@ -1,7 +1,7 @@
 package example.client;
 
-import example.client.widget.view.ExampleWidgetView;
-import example.client.widget.view.ExampleWidgetViewImpl;
+import example.client.widget.example.ExampleWidgetView;
+import example.client.widget.example.ExampleWidgetViewImpl;
 
 public class ExampleViewFactory {
 

@@ -13,7 +13,7 @@ package example.client;
 
 import com.google.gwt.core.client.GWT;
 
-import example.client.widget.resource.ExampleWidgetResource;
+import example.client.widget.example.ExampleWidgetResource;
 
 public class ExampleClientBundleFactory {
 

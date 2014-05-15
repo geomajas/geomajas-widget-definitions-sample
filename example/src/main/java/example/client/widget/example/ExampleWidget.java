@@ -1,12 +1,9 @@
-package example.client.widget;
+package example.client.widget.example;
 
 import com.google.gwt.user.client.ui.IsWidget;
 import com.google.gwt.user.client.ui.Widget;
 
 import example.client.Example;
-import example.client.widget.presenter.ExampleWidgetPresenter;
-import example.client.widget.presenter.ExampleWidgetPresenterImpl;
-import example.client.widget.view.ExampleWidgetView;
 
 public class ExampleWidget implements IsWidget {
 

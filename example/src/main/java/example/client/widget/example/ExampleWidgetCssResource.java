@@ -9,7 +9,7 @@
  * details, see LICENSE.txt in the project root.
  */
 
-package example.client.widget.resource;
+package example.client.widget.example;
 
 import com.google.gwt.resources.client.CssResource;
 

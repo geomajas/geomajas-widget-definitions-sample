@@ -8,8 +8,8 @@ import org.mockito.Mock;
 
 import com.google.gwtmockito.GwtMockitoTestRunner;
 
-import example.client.widget.presenter.ExampleWidgetPresenterImpl;
-import example.client.widget.view.ExampleWidgetView;
+import example.client.widget.example.ExampleWidgetPresenterImpl;
+import example.client.widget.example.ExampleWidgetView;
 
 @RunWith(GwtMockitoTestRunner.class)
 public class ExampleWidgetPresenterImplTest {

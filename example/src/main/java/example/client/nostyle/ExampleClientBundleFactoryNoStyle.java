@@ -3,7 +3,7 @@ package example.client.nostyle;
 import com.google.gwt.core.client.GWT;
 
 import example.client.ExampleClientBundleFactory;
-import example.client.widget.resource.ExampleWidgetResource;
+import example.client.widget.example.ExampleWidgetResource;
 
 /**
  * Overrides {@link ExampleClientBundleFactory} with empty styles.

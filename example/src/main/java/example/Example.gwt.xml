@@ -5,8 +5,8 @@
 	<source path="client"/>
 	<entry-point class="example.client.ExampleEntryPoint" />
 
-	<replace-with class="example.client.nostyle.ExampleClientBundleFactoryNoStyle">
+<!-- 	<replace-with class="example.client.nostyle.ExampleClientBundleFactoryNoStyle">
 		<when-type-is class="example.client.ExampleClientBundleFactory" />
 	</replace-with>
-	
+ -->	
 </module>

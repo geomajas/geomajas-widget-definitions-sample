@@ -3,7 +3,7 @@ package example.client;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.user.client.ui.RootLayoutPanel;
 
-import example.client.widget.ExampleWidget;
+import example.client.widget.example.ExampleWidget;
 
 public class ExampleEntryPoint implements EntryPoint {
 

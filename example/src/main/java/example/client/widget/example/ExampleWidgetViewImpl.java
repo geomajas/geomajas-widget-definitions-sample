@@ -1,4 +1,4 @@
-package example.client.widget.view;
+package example.client.widget.example;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -11,8 +11,6 @@ import com.google.gwt.user.client.ui.SimpleLayoutPanel;
 import com.google.gwt.user.client.ui.Widget;
 
 import example.client.Example;
-import example.client.widget.presenter.ExampleWidgetPresenter;
-import example.client.widget.resource.ExampleWidgetResource;
 
 /**
  * Implementation of {@link ExampleWidgetView}.

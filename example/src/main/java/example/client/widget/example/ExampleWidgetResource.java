@@ -8,7 +8,7 @@
  * by the Geomajas Contributors License Agreement. For full licensing
  * details, see LICENSE.txt in the project root.
  */
-package example.client.widget.resource;
+package example.client.widget.example;
 
 import com.google.gwt.resources.client.ClientBundle;
 

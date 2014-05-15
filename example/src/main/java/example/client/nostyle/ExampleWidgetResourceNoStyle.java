@@ -1,6 +1,6 @@
 package example.client.nostyle;
 
-import example.client.widget.resource.ExampleWidgetResource;
+import example.client.widget.example.ExampleWidgetResource;
 
 /**
  * Overrides {@link ExampleWidgetResource} with empty style.

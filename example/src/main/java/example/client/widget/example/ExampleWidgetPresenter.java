@@ -1,4 +1,4 @@
-package example.client.widget.presenter;
+package example.client.widget.example;
 
 /**
  * MVP presenter = callback interface for view.
