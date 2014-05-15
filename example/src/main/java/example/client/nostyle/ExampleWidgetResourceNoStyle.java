@@ -1,5 +1,6 @@
 package example.client.nostyle;
 
+import example.client.widget.example.ExampleWidgetCssResource;
 import example.client.widget.example.ExampleWidgetResource;
 
 /**
@@ -11,6 +12,6 @@ import example.client.widget.example.ExampleWidgetResource;
 public interface ExampleWidgetResourceNoStyle extends ExampleWidgetResource {
 
 	@Source("example-widget-nostyle.css")
-	ExampleWidgetCssResourceNoStyle css();
+	ExampleWidgetCssResource css();
 
 }
