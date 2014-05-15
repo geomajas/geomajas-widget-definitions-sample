@@ -11,7 +11,6 @@ public class Example {
 	private ExampleClientBundleFactory bundleFactory;
 
 	private Example() {
-		viewFactory = new ExampleViewFactory();
 	}
 
 	public static Example getInstance() {
@@ -29,12 +28,10 @@ public class Example {
 	}
 
 	public ExampleViewFactory getViewFactory() {
+		if (viewFactory == null) {
+			viewFactory = GWT.create(ExampleViewFactory.class);
+		}
 		return viewFactory;
 	}
-
-	public void setViewFactory(ExampleViewFactory viewFactory) {
-		this.viewFactory = viewFactory;
-	}
 	
-
 }
