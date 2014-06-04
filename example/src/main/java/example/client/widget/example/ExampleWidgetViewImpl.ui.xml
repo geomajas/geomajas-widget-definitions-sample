@@ -4,7 +4,11 @@
 	<ui:with field="resource" type="example.client.widget.example.ExampleWidgetResource" />
 
 	<g:SimpleLayoutPanel width="50" height="50">
-		<g:Button ui:field="button" styleName="{resource.css.exampleWidgetButton}"></g:Button>
+		<g:HorizontalPanel>
+			<g:Button ui:field="button" styleName="{resource.css.exampleWidgetButton}"/>
+			<g:Button styleName="{resource.css.exampleWidgetButtonWithImage}"/>
+			<g:Image resource='{resource.worldIcon}'/>
+		</g:HorizontalPanel>
 	</g:SimpleLayoutPanel>
 
 </ui:UiBinder> 

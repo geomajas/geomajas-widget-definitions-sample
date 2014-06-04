@@ -1,0 +1,16 @@
+@external .gm-exampleWidget;
+
+.gm-exampleWidgetButton {
+	width: 100px;
+	height: 50px;
+	background-color: blue;
+}
+
+@sprite .gm-exampleWidgetButtonWithImage {
+    gwt-image: "worldIcon";
+    cursor: pointer;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+}

@@ -18,4 +18,6 @@ public interface ExampleWidgetCssResource extends CssResource {
 	@ClassName("gm-exampleWidgetButton")
 	String exampleWidgetButton();
 
+	@ClassName("gm-exampleWidgetButtonWithImage")
+	String exampleWidgetButtonWithImage();
 }

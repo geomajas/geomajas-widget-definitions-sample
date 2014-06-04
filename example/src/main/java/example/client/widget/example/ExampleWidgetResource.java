@@ -11,10 +11,14 @@
 package example.client.widget.example;
 
 import com.google.gwt.resources.client.ClientBundle;
+import com.google.gwt.resources.client.ImageResource;
 
 public interface ExampleWidgetResource extends ClientBundle {
 
-	@Source("example-widget.css")
+	@Source("theme/example-widget.css")
 	ExampleWidgetCssResource css();
+
+	@Source("theme/images/world.png")
+	ImageResource worldIcon();
 
 }
