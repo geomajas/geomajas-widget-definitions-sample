@@ -33,5 +33,20 @@ public class Example {
 		}
 		return viewFactory;
 	}
-	
+
+	/**
+	 * Setter to customize viewFactory.
+	 * @param viewFactory
+	 */
+	public void setViewFactory(ExampleViewFactory viewFactory) {
+		this.viewFactory = viewFactory;
+	}
+
+	/**
+	 * Setter to customize the bundleFactory.
+	 * @param bundleFactory
+	 */
+	public void setBundleFactory(ExampleClientBundleFactory bundleFactory) {
+		this.bundleFactory = bundleFactory;
+	}
 }

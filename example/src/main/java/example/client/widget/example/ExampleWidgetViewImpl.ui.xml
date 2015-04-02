@@ -2,10 +2,12 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui">
 
 	<ui:with field="resource" type="example.client.widget.example.ExampleWidgetResource" />
+	<ui:with field='msg' type='example.client.i18n.ExampleWidgetMessages' />
 
 	<g:SimpleLayoutPanel width="50" height="50">
 		<g:HorizontalPanel>
-			<g:Button ui:field="button" styleName="{resource.css.exampleWidgetButton}"/>
+			<g:Button ui:field="button" styleName="{resource.css.exampleWidgetButton}"
+					  text="{msg.buttonLabelHello}"/>
 			<g:Button styleName="{resource.css.exampleWidgetButtonWithImage}"/>
 			<g:Image resource='{resource.worldIcon}'/>
 		</g:HorizontalPanel>

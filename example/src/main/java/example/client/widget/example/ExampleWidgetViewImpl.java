@@ -11,6 +11,7 @@ import com.google.gwt.user.client.ui.SimpleLayoutPanel;
 import com.google.gwt.user.client.ui.Widget;
 
 import example.client.Example;
+import example.client.i18n.ExampleWidgetMessages;
 
 /**
  * Implementation of {@link ExampleWidgetView}.
@@ -29,6 +30,8 @@ public class ExampleWidgetViewImpl implements ExampleWidgetView {
 
 	private static final MyUiBinder UIBINDER = GWT.create(MyUiBinder.class);
 
+	private static final ExampleWidgetMessages MESSAGES = GWT.create(ExampleWidgetMessages.class);
+
 	/**
 	 * UI binder interface.
 	 * 
@@ -45,7 +48,6 @@ public class ExampleWidgetViewImpl implements ExampleWidgetView {
 	public ExampleWidgetViewImpl(ExampleWidgetResource resource) {
 		resource.css().ensureInjected();
 		widget = (SimpleLayoutPanel) UIBINDER.createAndBindUi(this);
-		button.setText("Hello");
 	}
 
 	public void setPresenter(ExampleWidgetPresenter presenter) {
@@ -58,7 +60,7 @@ public class ExampleWidgetViewImpl implements ExampleWidgetView {
 	}
 
 	public void sayHello() {
-		Window.alert("Hello !");
+		Window.alert(MESSAGES.messageTextHello());
 	}
 
 	public Widget asWidget() {

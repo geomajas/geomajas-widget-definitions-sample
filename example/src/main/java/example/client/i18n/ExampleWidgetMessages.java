@@ -8,20 +8,18 @@
  * by the Geomajas Contributors License Agreement. For full licensing
  * details, see LICENSE.txt in the project root.
  */
+package example.client.i18n;
 
-package example.client;
-
-import com.google.gwt.core.client.GWT;
-
-import example.client.widget.example.ExampleWidgetResource;
+import com.google.gwt.i18n.client.Messages;
 
 /**
- * Add a createResource methode per widget.
+ * Message bundle for example widget.
+ * 
+ * @author Jan Venstermans
+ * 
  */
-public class ExampleClientBundleFactory {
+public interface ExampleWidgetMessages extends Messages {
 
-	public ExampleWidgetResource createExampleWidgetResource() {
-		return GWT.create(ExampleWidgetResource.class);
-	}
-
+	String buttonLabelHello();
+	String messageTextHello();
 }
